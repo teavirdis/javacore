@@ -5,7 +5,7 @@ import by.bsuir.houses.model.covers.Request.Action;
 
 public class CommandFactory {
 
-	public static Command buildCommand(Request request) {
+	public static Command createCommand(Request request) {
 		Action action = request.getCurrentAction();
 		Command command = null;
 		switch (action) {

@@ -26,14 +26,18 @@ public class ThreadedHandler implements Runnable {
 
 	public void run() {
 		try {
-			ObjectInputStream ois = new ObjectInputStream(
-					new BufferedInputStream(socket.getInputStream()));
-			ObjectOutputStream oos = new ObjectOutputStream(
-					new BufferedOutputStream(socket.getOutputStream()));
-			Request req = (Request) ois.readObject();
-			Response resp = CommandFactory.buildCommand(req).execute();
-			oos.writeObject(resp);
-			oos.flush();
+			try {
+				ObjectInputStream ois = new ObjectInputStream(
+						new BufferedInputStream(socket.getInputStream()));
+				ObjectOutputStream oos = new ObjectOutputStream(
+						new BufferedOutputStream(socket.getOutputStream()));
+				Request req = (Request) ois.readObject();
+				Response resp = CommandFactory.createCommand(req).execute(req);
+				oos.writeObject(resp);
+				oos.flush();
+			} finally {
+				socket.close();
+			}
 		} catch (IOException e) {
 			log.error(e.getMessage());
 		} catch (ClassNotFoundException e) {
