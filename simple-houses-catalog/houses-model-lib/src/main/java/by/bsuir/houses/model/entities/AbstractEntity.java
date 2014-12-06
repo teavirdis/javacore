@@ -3,7 +3,7 @@ package by.bsuir.houses.model.entities;
 import java.io.Serializable;
 
 @SuppressWarnings("serial")
-public abstract class AbstractEntity  implements Serializable{
+public abstract class AbstractEntity implements Serializable{
 
 	private int id;
 	

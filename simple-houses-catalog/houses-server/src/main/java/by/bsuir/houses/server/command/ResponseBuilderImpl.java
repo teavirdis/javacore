@@ -2,14 +2,14 @@ package by.bsuir.houses.server.command;
 
 import java.util.List;
 
-import by.bsuir.houses.model.builders.Builder;
+import by.bsuir.houses.model.builders.ResponseBuilder;
 import by.bsuir.houses.model.covers.Response;
 import by.bsuir.houses.model.covers.Response.Status;
 import by.bsuir.houses.model.covers.impl.SimpleTCPResponse;
 import by.bsuir.houses.model.entities.House;
 import by.bsuir.houses.model.entities.Person;
 
-public class ResponseBuilder implements Builder{
+public class ResponseBuilderImpl implements ResponseBuilder{
 	
 	private List<House> houses;
 	private Response.Status status;
@@ -49,6 +49,11 @@ public class ResponseBuilder implements Builder{
 	public Response buildResponse() {
 		
 		return new SimpleTCPResponse(houses, null, null, null, status);
+	}
+
+	public Response getResponse() {
+		// TODO Auto-generated method stub
+		return buildResponse();
 	}
 
 }

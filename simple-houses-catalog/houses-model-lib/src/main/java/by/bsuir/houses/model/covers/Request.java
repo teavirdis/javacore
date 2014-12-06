@@ -1,8 +1,6 @@
 package by.bsuir.houses.model.covers;
 
-import java.io.Serializable;
-
-public interface Request extends Serializable{
+public interface Request extends Cover{
 
 	enum Action {
 		CREATEHOUSE, EDITHOUSE, FINDHOUSE, SORTHOUSE, ALLHOUSES

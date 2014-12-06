@@ -9,7 +9,7 @@ import by.bsuir.houses.server.dao.HouseDAO;
 
 public class ReadHousesCommand extends AbstractCommand{
 	
-	private ResponseBuilder responseBuilder = new ResponseBuilder();
+	private ResponseBuilderImpl responseBuilder = new ResponseBuilderImpl();
 
 	public Response execute(Request request) throws HouseApplicationSQLException {
 		HouseDAO dao;
@@ -23,7 +23,7 @@ public class ReadHousesCommand extends AbstractCommand{
 			responseBuilder.setError();
 		}
 		
-		return responseBuilder.buildResponse();
+		return responseBuilder.getResponse();
 	}
 
 }

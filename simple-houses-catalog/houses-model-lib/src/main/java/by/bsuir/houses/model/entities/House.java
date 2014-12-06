@@ -1,6 +1,8 @@
 package by.bsuir.houses.model.entities;
 
-public class House extends AbstractEntity{
+import java.io.Serializable;
+
+public class House extends AbstractEntity implements Serializable{
 
 	/**
 	 * 

@@ -11,6 +11,7 @@ import org.apache.log4j.Logger;
 
 import by.bsuir.houses.model.covers.Request;
 import by.bsuir.houses.model.covers.Response;
+import by.bsuir.houses.model.covers.impl.SimpleTCPResponse;
 
 public class TCPClient {
 
@@ -30,7 +31,7 @@ public class TCPClient {
 			oos.flush();
 			ObjectInputStream ois = new ObjectInputStream(
 					socket.getInputStream());
-			response = (Response) ois.readObject();
+			response = (SimpleTCPResponse) ois.readObject();
 
 		} catch (UnknownHostException e) {
 			log.error(e.getMessage());

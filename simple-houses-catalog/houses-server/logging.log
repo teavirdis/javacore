@@ -1,0 +1,252 @@
+2014-12-06 06:09:16 INFO  ConnectionPool:76 - ConnectionPool creating
+2014-12-06 06:09:17 INFO  ConnectionPool:52 - Connection Pool added 0 connection
+2014-12-06 06:09:17 INFO  ConnectionPool:52 - Connection Pool added 1 connection
+2014-12-06 06:09:17 INFO  ConnectionPool:52 - Connection Pool added 2 connection
+2014-12-06 06:09:17 INFO  ConnectionPool:52 - Connection Pool added 3 connection
+2014-12-06 06:09:17 INFO  ConnectionPool:52 - Connection Pool added 4 connection
+2014-12-06 06:09:18 INFO  ConnectionPool:52 - Connection Pool added 5 connection
+2014-12-06 06:09:18 INFO  ConnectionPool:52 - Connection Pool added 6 connection
+2014-12-06 06:09:18 INFO  ConnectionPool:52 - Connection Pool added 7 connection
+2014-12-06 06:09:27 ERROR ThreadedHandler:42 - by.bsuir.houses.model.covers.impl.SimpleTCPRequest; no valid constructor
+2014-12-06 06:10:22 ERROR ThreadedHandler:42 - by.bsuir.houses.model.covers.impl.SimpleTCPRequest; no valid constructor
+2014-12-06 06:11:59 ERROR ThreadedHandler:42 - by.bsuir.houses.model.covers.impl.SimpleTCPRequest; no valid constructor
+2014-12-06 06:16:11 INFO  ConnectionPool:76 - ConnectionPool creating
+2014-12-06 06:16:12 INFO  ConnectionPool:52 - Connection Pool added 0 connection
+2014-12-06 06:16:12 INFO  ConnectionPool:52 - Connection Pool added 1 connection
+2014-12-06 06:16:12 INFO  ConnectionPool:52 - Connection Pool added 2 connection
+2014-12-06 06:16:12 INFO  ConnectionPool:52 - Connection Pool added 3 connection
+2014-12-06 06:16:12 INFO  ConnectionPool:52 - Connection Pool added 4 connection
+2014-12-06 06:16:12 INFO  ConnectionPool:52 - Connection Pool added 5 connection
+2014-12-06 06:16:12 INFO  ConnectionPool:52 - Connection Pool added 6 connection
+2014-12-06 06:16:12 INFO  ConnectionPool:52 - Connection Pool added 7 connection
+2014-12-06 06:16:25 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 06:16:25 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 06:17:00 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 06:17:00 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 07:33:41 INFO  ConnectionPool:76 - ConnectionPool creating
+2014-12-06 07:33:42 INFO  ConnectionPool:52 - Connection Pool added 0 connection
+2014-12-06 07:33:42 INFO  ConnectionPool:52 - Connection Pool added 1 connection
+2014-12-06 07:33:42 INFO  ConnectionPool:52 - Connection Pool added 2 connection
+2014-12-06 07:33:42 INFO  ConnectionPool:52 - Connection Pool added 3 connection
+2014-12-06 07:33:42 INFO  ConnectionPool:52 - Connection Pool added 4 connection
+2014-12-06 07:33:42 INFO  ConnectionPool:52 - Connection Pool added 5 connection
+2014-12-06 07:33:42 INFO  ConnectionPool:52 - Connection Pool added 6 connection
+2014-12-06 07:33:42 INFO  ConnectionPool:52 - Connection Pool added 7 connection
+2014-12-06 07:33:58 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 07:33:58 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 07:33:58 ERROR ThreadedHandler:46 - Column 'hoseaddr' not found.
+2014-12-06 07:35:48 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 07:35:48 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 07:35:48 ERROR ThreadedHandler:46 - Column 'hoseaddr' not found.
+2014-12-06 07:36:20 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 07:36:20 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 07:36:20 ERROR ThreadedHandler:46 - Column 'hoseaddr' not found.
+2014-12-06 07:38:21 INFO  ConnectionPool:76 - ConnectionPool creating
+2014-12-06 07:38:21 INFO  ConnectionPool:52 - Connection Pool added 0 connection
+2014-12-06 07:38:21 INFO  ConnectionPool:52 - Connection Pool added 1 connection
+2014-12-06 07:38:21 INFO  ConnectionPool:52 - Connection Pool added 2 connection
+2014-12-06 07:38:22 INFO  ConnectionPool:52 - Connection Pool added 3 connection
+2014-12-06 07:38:22 INFO  ConnectionPool:52 - Connection Pool added 4 connection
+2014-12-06 07:38:22 INFO  ConnectionPool:52 - Connection Pool added 5 connection
+2014-12-06 07:38:22 INFO  ConnectionPool:52 - Connection Pool added 6 connection
+2014-12-06 07:38:22 INFO  ConnectionPool:52 - Connection Pool added 7 connection
+2014-12-06 07:41:21 INFO  ConnectionPool:76 - ConnectionPool creating
+2014-12-06 07:41:22 INFO  ConnectionPool:52 - Connection Pool added 0 connection
+2014-12-06 07:41:22 INFO  ConnectionPool:52 - Connection Pool added 1 connection
+2014-12-06 07:41:22 INFO  ConnectionPool:52 - Connection Pool added 2 connection
+2014-12-06 07:41:22 INFO  ConnectionPool:52 - Connection Pool added 3 connection
+2014-12-06 07:41:22 INFO  ConnectionPool:52 - Connection Pool added 4 connection
+2014-12-06 07:41:22 INFO  ConnectionPool:52 - Connection Pool added 5 connection
+2014-12-06 07:41:22 INFO  ConnectionPool:52 - Connection Pool added 6 connection
+2014-12-06 07:41:22 INFO  ConnectionPool:52 - Connection Pool added 7 connection
+2014-12-06 07:41:37 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 07:41:37 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 07:41:53 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 07:41:53 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 07:43:07 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 07:43:07 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 07:53:24 INFO  ConnectionPool:76 - ConnectionPool creating
+2014-12-06 07:53:25 INFO  ConnectionPool:52 - Connection Pool added 0 connection
+2014-12-06 07:53:25 INFO  ConnectionPool:52 - Connection Pool added 1 connection
+2014-12-06 07:53:26 INFO  ConnectionPool:52 - Connection Pool added 2 connection
+2014-12-06 07:53:26 INFO  ConnectionPool:52 - Connection Pool added 3 connection
+2014-12-06 07:53:26 INFO  ConnectionPool:52 - Connection Pool added 4 connection
+2014-12-06 07:53:26 INFO  ConnectionPool:52 - Connection Pool added 5 connection
+2014-12-06 07:53:26 INFO  ConnectionPool:52 - Connection Pool added 6 connection
+2014-12-06 07:53:26 INFO  ConnectionPool:52 - Connection Pool added 7 connection
+2014-12-06 07:55:32 INFO  ConnectionPool:76 - ConnectionPool creating
+2014-12-06 07:55:32 INFO  ConnectionPool:52 - Connection Pool added 0 connection
+2014-12-06 07:55:32 INFO  ConnectionPool:52 - Connection Pool added 1 connection
+2014-12-06 07:55:32 INFO  ConnectionPool:52 - Connection Pool added 2 connection
+2014-12-06 07:55:32 INFO  ConnectionPool:52 - Connection Pool added 3 connection
+2014-12-06 07:55:32 INFO  ConnectionPool:52 - Connection Pool added 4 connection
+2014-12-06 07:55:32 INFO  ConnectionPool:52 - Connection Pool added 5 connection
+2014-12-06 07:55:33 INFO  ConnectionPool:52 - Connection Pool added 6 connection
+2014-12-06 07:55:33 INFO  ConnectionPool:52 - Connection Pool added 7 connection
+2014-12-06 07:55:47 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 07:55:47 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 07:57:57 INFO  ConnectionPool:76 - ConnectionPool creating
+2014-12-06 07:57:58 INFO  ConnectionPool:52 - Connection Pool added 0 connection
+2014-12-06 07:57:58 INFO  ConnectionPool:52 - Connection Pool added 1 connection
+2014-12-06 07:57:58 INFO  ConnectionPool:52 - Connection Pool added 2 connection
+2014-12-06 07:57:58 INFO  ConnectionPool:52 - Connection Pool added 3 connection
+2014-12-06 07:57:58 INFO  ConnectionPool:52 - Connection Pool added 4 connection
+2014-12-06 07:57:58 INFO  ConnectionPool:52 - Connection Pool added 5 connection
+2014-12-06 07:57:58 INFO  ConnectionPool:52 - Connection Pool added 6 connection
+2014-12-06 07:57:58 INFO  ConnectionPool:52 - Connection Pool added 7 connection
+2014-12-06 07:58:08 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 07:58:08 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 07:58:08 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 08:04:20 INFO  ConnectionPool:76 - ConnectionPool creating
+2014-12-06 08:04:20 INFO  ConnectionPool:52 - Connection Pool added 0 connection
+2014-12-06 08:04:20 INFO  ConnectionPool:52 - Connection Pool added 1 connection
+2014-12-06 08:04:20 INFO  ConnectionPool:52 - Connection Pool added 2 connection
+2014-12-06 08:04:20 INFO  ConnectionPool:52 - Connection Pool added 3 connection
+2014-12-06 08:04:21 INFO  ConnectionPool:52 - Connection Pool added 4 connection
+2014-12-06 08:04:21 INFO  ConnectionPool:52 - Connection Pool added 5 connection
+2014-12-06 08:04:21 INFO  ConnectionPool:52 - Connection Pool added 6 connection
+2014-12-06 08:04:21 INFO  ConnectionPool:52 - Connection Pool added 7 connection
+2014-12-06 08:04:34 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 08:04:34 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 08:04:34 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 08:04:34 INFO  ThreadedHandler:36 - 1
+2014-12-06 08:06:15 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 08:06:15 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 08:06:15 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 08:06:15 INFO  ThreadedHandler:36 - 1
+2014-12-06 08:07:51 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 08:07:51 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 08:07:51 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 08:07:51 INFO  ThreadedHandler:36 - 1
+2014-12-06 08:12:26 INFO  ConnectionPool:76 - ConnectionPool creating
+2014-12-06 08:12:27 INFO  ConnectionPool:52 - Connection Pool added 0 connection
+2014-12-06 08:12:27 INFO  ConnectionPool:52 - Connection Pool added 1 connection
+2014-12-06 08:12:27 INFO  ConnectionPool:52 - Connection Pool added 2 connection
+2014-12-06 08:12:27 INFO  ConnectionPool:52 - Connection Pool added 3 connection
+2014-12-06 08:12:27 INFO  ConnectionPool:52 - Connection Pool added 4 connection
+2014-12-06 08:12:27 INFO  ConnectionPool:52 - Connection Pool added 5 connection
+2014-12-06 08:12:27 INFO  ConnectionPool:52 - Connection Pool added 6 connection
+2014-12-06 08:12:27 INFO  ConnectionPool:52 - Connection Pool added 7 connection
+2014-12-06 08:12:39 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 08:12:39 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 08:12:39 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 08:15:04 INFO  ConnectionPool:76 - ConnectionPool creating
+2014-12-06 08:15:04 INFO  ConnectionPool:52 - Connection Pool added 0 connection
+2014-12-06 08:15:04 INFO  ConnectionPool:52 - Connection Pool added 1 connection
+2014-12-06 08:15:04 INFO  ConnectionPool:52 - Connection Pool added 2 connection
+2014-12-06 08:15:05 INFO  ConnectionPool:52 - Connection Pool added 3 connection
+2014-12-06 08:15:05 INFO  ConnectionPool:52 - Connection Pool added 4 connection
+2014-12-06 08:15:05 INFO  ConnectionPool:52 - Connection Pool added 5 connection
+2014-12-06 08:15:05 INFO  ConnectionPool:52 - Connection Pool added 6 connection
+2014-12-06 08:15:05 INFO  ConnectionPool:52 - Connection Pool added 7 connection
+2014-12-06 08:15:17 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 08:15:17 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 08:15:17 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 08:22:57 INFO  ConnectionPool:76 - ConnectionPool creating
+2014-12-06 08:22:57 INFO  ConnectionPool:52 - Connection Pool added 0 connection
+2014-12-06 08:22:57 INFO  ConnectionPool:52 - Connection Pool added 1 connection
+2014-12-06 08:22:57 INFO  ConnectionPool:52 - Connection Pool added 2 connection
+2014-12-06 08:22:57 INFO  ConnectionPool:52 - Connection Pool added 3 connection
+2014-12-06 08:22:57 INFO  ConnectionPool:52 - Connection Pool added 4 connection
+2014-12-06 08:22:58 INFO  ConnectionPool:52 - Connection Pool added 5 connection
+2014-12-06 08:22:58 INFO  ConnectionPool:52 - Connection Pool added 6 connection
+2014-12-06 08:22:58 INFO  ConnectionPool:52 - Connection Pool added 7 connection
+2014-12-06 08:23:11 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 08:23:11 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 08:23:11 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 08:28:19 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 08:28:19 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 08:28:19 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 08:39:17 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 08:39:17 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 08:39:17 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 08:42:11 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 08:42:11 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 08:42:11 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 08:43:10 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 08:43:10 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 08:43:10 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 08:48:25 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 08:48:25 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 08:48:25 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 08:49:03 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 08:49:03 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 08:49:03 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 08:50:03 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 08:50:03 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 08:50:03 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 08:51:55 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 08:51:55 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 08:51:55 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 08:53:55 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 08:53:55 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 08:53:55 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 08:55:05 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 08:55:05 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 08:55:05 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 08:55:55 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 08:55:55 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 08:55:55 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 08:56:24 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 08:56:24 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 08:56:24 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 08:57:44 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 08:57:44 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 08:57:44 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 09:58:46 INFO  ConnectionPool:76 - ConnectionPool creating
+2014-12-06 09:58:47 INFO  ConnectionPool:52 - Connection Pool added 0 connection
+2014-12-06 09:58:47 INFO  ConnectionPool:52 - Connection Pool added 1 connection
+2014-12-06 09:58:47 INFO  ConnectionPool:52 - Connection Pool added 2 connection
+2014-12-06 09:58:47 INFO  ConnectionPool:52 - Connection Pool added 3 connection
+2014-12-06 09:58:47 INFO  ConnectionPool:52 - Connection Pool added 4 connection
+2014-12-06 09:58:47 INFO  ConnectionPool:52 - Connection Pool added 5 connection
+2014-12-06 09:58:47 INFO  ConnectionPool:52 - Connection Pool added 6 connection
+2014-12-06 09:58:47 INFO  ConnectionPool:52 - Connection Pool added 7 connection
+2014-12-06 09:58:56 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 09:58:56 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 09:58:56 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 10:01:31 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 10:01:31 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 10:01:31 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 10:01:50 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 10:01:50 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 10:01:50 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 10:01:50 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 10:01:50 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 10:01:50 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 10:02:38 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 10:02:38 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 10:02:38 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 10:03:00 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 10:03:00 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 10:03:00 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 10:03:16 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 10:03:16 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 10:03:16 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 10:05:01 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 10:05:01 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 10:05:01 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 10:05:01 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 10:05:01 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 10:05:01 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 10:05:22 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 10:05:22 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 10:05:22 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 10:05:22 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 10:05:22 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 10:05:22 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 10:05:35 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 10:05:35 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 10:05:35 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 10:05:35 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 10:05:35 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 10:05:35 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 10:06:18 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 10:06:18 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 10:06:18 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 10:06:18 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 10:06:18 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 10:06:18 DEBUG HouseDAO:50 - List of houses: 1
+2014-12-06 10:07:23 INFO  ConnectionPool:101 - 0 connection was getted
+2014-12-06 10:07:23 INFO  ConnectionPool:113 - 0 connection was returned
+2014-12-06 10:07:23 DEBUG HouseDAO:50 - List of houses: 1

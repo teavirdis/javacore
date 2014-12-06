@@ -2,14 +2,23 @@ package by.bsuir.houses.model.covers.impl;
 
 import by.bsuir.houses.model.entities.*;
 
+import java.io.Serializable;
 import java.util.List;
 
-public abstract class AbstractCover {
+public abstract class AbstractCover implements Serializable{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 4836778261708013074L;
 	private List<House> houses;
 	private List<Person> persons;
 	private House house;
 	private Person person;
+	
+	public AbstractCover() {
+		super();
+	}
 
 	public AbstractCover(List<House> houses, List<Person> persons, House house,
 			Person person) {

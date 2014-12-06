@@ -13,9 +13,14 @@ public class SimpleTCPRequest extends AbstractCover implements Request {
 	 */
 	private static final long serialVersionUID = -5073511181083026839L;
 
+	public SimpleTCPRequest() {
+		super();
+	}
+
 	public SimpleTCPRequest(List<House> houses, List<Person> persons,
-			House house, Person person) {
+			House house, Person person, Action action) {
 		super(houses, persons, house, person);
+		this.action = action;
 	}
 
 	private Action action;

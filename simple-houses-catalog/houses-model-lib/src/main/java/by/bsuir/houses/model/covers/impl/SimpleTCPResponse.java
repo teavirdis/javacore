@@ -6,21 +6,23 @@ import by.bsuir.houses.model.covers.Response;
 import by.bsuir.houses.model.entities.House;
 import by.bsuir.houses.model.entities.Person;
 
-public class SimpleTCPResponse extends AbstractCover implements Response{
-
-
+public class SimpleTCPResponse extends AbstractCover implements Response {
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 5204837889289669815L;
 
+	public SimpleTCPResponse() {
+		super();
+	}
+
 	private Status status;
-	
+
 	public Status getStatus() {
 		return status;
 	}
-	
+
 	public SimpleTCPResponse(List<House> houses, List<Person> persons,
 			House house, Person person, Status status) {
 		super(houses, persons, house, person);

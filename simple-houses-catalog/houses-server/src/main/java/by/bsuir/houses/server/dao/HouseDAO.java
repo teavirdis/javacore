@@ -7,9 +7,13 @@ import java.sql.SQLIntegrityConstraintViolationException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
+
 import by.bsuir.houses.model.entities.House;
 
 public class HouseDAO extends AbstractDAO<House> {
+	
+	private static final Logger log = Logger.getLogger(HouseDAO.class);
 
 	private static final String SQL_SELECT_HOUSES = "select * from house;";
 	private static final String SQL_SELECT_HOUSES_BY_ID = "select * from house where idhouse = ?;";
@@ -33,15 +37,17 @@ public class HouseDAO extends AbstractDAO<House> {
 			st = getConnection().prepareStatement(SQL_SELECT_HOUSES);
 			ResultSet rs = st.executeQuery();
 			while (rs.next()) {
-				House house = this.newsFromResultSet(rs);
+				House house = this.housesFromResultSet(rs);
 				list.add(house);
 			}
 		} catch (SQLException e) {
+			log.error(e.getMessage());
 			throw new HouseApplicationSQLException(e.getMessage());
 		} finally {
 			close(st);
 			closeConnection();
 		}
+		log.debug("List of houses: " + list.size());
 		return list;
 	}
 
@@ -55,9 +61,10 @@ public class HouseDAO extends AbstractDAO<House> {
 			ResultSet rs = st.executeQuery();
 			if (rs != null) {
 				rs.next();
-				house = this.newsFromResultSet(rs);
+				house = this.housesFromResultSet(rs);
 			}
 		} catch (SQLException e) {
+			log.error(e.getMessage());
 			throw new HouseApplicationSQLException(e.getMessage());
 		} finally {
 			close(st);
@@ -75,7 +82,7 @@ public class HouseDAO extends AbstractDAO<House> {
 			st.setInt(1, id);
 			flag = st.execute();
 		} catch (SQLException e) {
-
+			log.error(e.getMessage());
 			throw new HouseApplicationSQLException(e.getMessage());
 		} finally {
 			close(st);
@@ -101,8 +108,10 @@ public class HouseDAO extends AbstractDAO<House> {
 				entity.setId(rs.getInt(1));
 			}
 		} catch (SQLIntegrityConstraintViolationException e) {
+			log.error(e.getMessage());
 			throw new HouseApplicationSQLException(e.getMessage());
 		} catch (SQLException e) {
+			log.error(e.getMessage());
 			throw new HouseApplicationSQLException(e.getMessage());
 		} finally {
 			close(st);
@@ -131,10 +140,10 @@ public class HouseDAO extends AbstractDAO<House> {
 
 	}
 
-	private House newsFromResultSet(ResultSet rs) throws SQLException {
+	private House housesFromResultSet(ResultSet rs) throws SQLException {
 		House house = new House();
 		house.setId(rs.getInt(HOUSES_ID));
-		house.setAddress(rs.getString("hoseaddr"));
+		house.setAddress(rs.getString("houseaddr"));
 		house.setSize(rs.getInt("housesize"));
 		return house;
 	}
@@ -155,6 +164,7 @@ public class HouseDAO extends AbstractDAO<House> {
 			st = getConnection().prepareStatement(sb.toString());
 			result = st.execute();
 		} catch (SQLException e) {
+			log.error(e.getMessage());
 			throw new HouseApplicationSQLException(e.getMessage());
 		} finally {
 			close(st);

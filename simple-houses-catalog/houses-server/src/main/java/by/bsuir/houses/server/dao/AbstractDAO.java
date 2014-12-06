@@ -5,11 +5,14 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import org.apache.log4j.Logger;
+
 import by.bsuir.houses.server.pool.ConnectionPool;
 import by.bsuir.houses.server.pool.WrappedConnection;
 
-
 public abstract class AbstractDAO<T> extends BaseDAO<T> {
+
+	private static final Logger log = Logger.getLogger(AbstractDAO.class);
 
 	private WrappedConnection connection;
 
@@ -42,8 +45,7 @@ public abstract class AbstractDAO<T> extends BaseDAO<T> {
 			try {
 				st.close();
 			} catch (SQLException e) {
-
-				e.printStackTrace();
+				log.error(e.getMessage());
 			}
 
 		}
@@ -54,8 +56,7 @@ public abstract class AbstractDAO<T> extends BaseDAO<T> {
 			try {
 				st.close();
 			} catch (SQLException e) {
-
-				e.printStackTrace();
+				log.error(e.getMessage());
 			}
 
 	}
@@ -65,8 +66,7 @@ public abstract class AbstractDAO<T> extends BaseDAO<T> {
 			try {
 				st.close();
 			} catch (SQLException e) {
-
-				e.printStackTrace();
+				log.error(e.getMessage());
 			}
 
 	}
